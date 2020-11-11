@@ -1,0 +1,26 @@
+input[type="color"] {
+	-webkit-appearance: none;
+	border: none;
+	width: 32px;
+	height: 32px;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+}
+
+.colorButton {
+	-webkit-appearance: none;
+	background-color: transparent;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 6px 12px;
+}
+
+.colorForm {
+	display: flex;
+}
